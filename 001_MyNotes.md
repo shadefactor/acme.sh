@@ -1,4 +1,4 @@
-(copied from Wiki, with additional notes prefixed with MM2019:)
+([copied from Wiki](https://github.com/Neilpang/acme.sh/wiki/Synology-NAS-Guide), with additional notes prefixed with MM2019:)
 
 # HTTPS certificates for your Synology NAS using acme.sh
 
