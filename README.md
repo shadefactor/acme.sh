@@ -1,4 +1,4 @@
-# [see my edited notes for Synology copied from wiki](https://github.com/shadefactor/acme.sh/blob/master/001_MyNotes.txt)
+# [see my edited notes for Synology copied from wiki](https://github.com/shadefactor/acme.sh/blob/master/001_MyNotes.md)
 
 # [see Synology notes in main wiki](https://github.com/Neilpang/acme.sh/wiki/Synology-NAS-Guide)
 
