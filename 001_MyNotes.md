@@ -10,7 +10,7 @@ But we can access the NAS via SSH and configure it to renew certs instead of usi
 
 The following guide will use the DNS-01 protocol using the [Cloudflare API](https://api.cloudflare.com/), where I host my domain. However, [since acme.sh supports many DNS services](https://github.com/Neilpang/acme.sh/tree/master/dnsapi), you can also choose the one you like.
 
-## Installation of acme.sh MM2019:
+## MM2019:  Installation of acme.sh 
 
     $ cd ~
     $ mkdir letsencrypt
@@ -24,7 +24,7 @@ The following guide will use the DNS-01 protocol using the [Cloudflare API](http
     $ cd acme.sh-master/
     $ ./acme.sh --install --nocron --home /usr/local/share/acme.sh --accountemail "email@gmailcom"
 
-## Configuring DNS
+## MM2019:  Configuring DNS
 
     $ cd ~/letsencrypt/acme.sh-master/dnsapi
     $ nano dns_cf.sh
