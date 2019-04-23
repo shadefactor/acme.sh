@@ -1,4 +1,4 @@
-# [see Synology in main wiki] (https://github.com/Neilpang/acme.sh/wiki/Synology-NAS-Guide)
+# [see Synology in main wiki](https://github.com/Neilpang/acme.sh/wiki/Synology-NAS-Guide)
 
 # An ACME Shell script: acme.sh [![Build Status](https://travis-ci.org/Neilpang/acme.sh.svg?branch=master)](https://travis-ci.org/Neilpang/acme.sh)
 
