@@ -44,11 +44,11 @@ You can get your CloudFlare [API key here](https://dash.cloudflare.com/profile).
 
 In case you use another DNS service, check the `dnsapi` directory. Instructions for many DNS providers are already included. You can also find instructions on how to add another DNS service there, although that requires some software development skills.
 
-## Creating the certificate
+## Creating the certificate as a Wildcard
 Now it's time to create the certificate for your domain:
 
     $ cd /usr/local/share/acme.sh
-    $ export CERT_DOMAIN="your-domain.tld"
+    $ export CERT_DOMAIN="*.ouractualdomainname.com.au"
     $ export CERT_DNS="dns_cf"
     $ ./acme.sh --issue -d "$CERT_DOMAIN" --dns "$CERT_DNS" \
           --cert-file /usr/syno/etc/certificate/system/default/cert.pem \
