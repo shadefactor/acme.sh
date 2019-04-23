@@ -26,16 +26,16 @@ The following guide will use the DNS-01 protocol using the [Cloudflare API](http
 
 ## MM2019:  Configuring DNS
 
-    $ cd ~/letsencrypt/acme.sh-master/dnsapi
+For CloudFlare, we will set two environment variables that acme.sh 
+(specifically, the `dns_cf` script from the `dnsapi` subdirectory) 
+will read to set the DNS record. 
+
+    $ cd /usr/local/share/acme.sh/dnsapi/
     $ nano dns_cf.sh
     $ uncomment line 4 and line 6 
     $ paste in our API value from CloudFlare 
     $ and matt's email address 
     $ exit nano and save this file
-
-For CloudFlare, we will set two environment variables that acme.sh 
-(specifically, the `dns_cf` script from the `dnsapi` subdirectory) 
-will read to set the DNS record. 
 
 You can get your CloudFlare [API key here](https://dash.cloudflare.com/profile).
 
