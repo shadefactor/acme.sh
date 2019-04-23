@@ -15,9 +15,9 @@ The following guide will use the DNS-01 protocol using the [Cloudflare API](http
     $ sudo -i
     $ wget https://github.com/Neilpang/acme.sh/archive/master.tar.gz
 
-MM2019:  or if wget not enabled for SSL then:
+# MM2019:  or if wget not enabled for SSL then use curl like this
+
     $ curl -k -O -L https://github.com/Neilpang/acme.sh/archive/master.tar.gz
-    
     $ tar xvf master.tar.gz
     $ cd acme.sh-master/
     $ ./acme.sh --install --nocron --home /usr/local/share/acme.sh --accountemail "email@gmailcom"
